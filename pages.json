@@ -1,0 +1,54 @@
+{
+	"pages": [
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "发现之旅"
+			}
+		},
+		{
+			"path": "pages/profile/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/category/index",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#ff878c",
+		"backgroundColor": "#ff878c"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#ff8684",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/home/index",
+				"iconPath": "/static/tabbar/find.png",
+				"selectedIconPath": "/static/tabbar/find-active.png",
+				"text": "发现"
+			},
+			{
+				"pagePath": "pages/category/index",
+				"iconPath": "/static/tabbar/category.png",
+				"selectedIconPath": "/static/tabbar/category-active.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/profile/index",
+				"iconPath": "/static/tabbar/profile.png",
+				"selectedIconPath": "/static/tabbar/profile-active.png",
+				"text": "我的"
+			}
+		]
+	}
+}
